@@ -11,6 +11,10 @@ int main()
     foo_bravo("This string should be printed");
     printf("pi = %1.5lf\n", foo_pi());
 
+    struct foo_rgb_t colors = {10, 123, 254};
+
+    foo_print_rgb(colors);
+
     exit(0);
 
 }

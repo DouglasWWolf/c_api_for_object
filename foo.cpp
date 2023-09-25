@@ -20,3 +20,7 @@ double CFoo::pi()
     return 3.14159;
 }
 
+void CFoo::print_rgb(rgb_t colors)
+{
+    printf("red = %i, blue = %i, green = %i\n", colors.r, colors.b, colors.g);    
+}
